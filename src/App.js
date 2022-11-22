@@ -4,18 +4,18 @@ import './css/App.css';
 
 function App() {
 
-  const title = 'Welcome to the new blog';
-  const chiffre = 3;
+  const title = 'All-4-One';
+  const web = 'web site'
 
   return (
 
     <div className="App">
 
-<div class="contour">
 
 <header class="Header">
+<div class="contour">
 <div class="Title">
-        <h3>{ title } {chiffre}</h3>
+        <h3>{ title } {web}</h3>
 
  </div>
 
@@ -42,10 +42,14 @@ function App() {
               </li>
           </ul> */}        
        </nav>
+
+       <input class="searchbar" type="text" placeholder="Search.."/>
+       </div>
   </header>
+
+
   </div>
 
-    </div>
 
 
   );
