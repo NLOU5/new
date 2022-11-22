@@ -43,7 +43,9 @@ function App() {
           </ul> */}        
        </nav>
 
-       <input class="searchbar" type="text" placeholder="Search.."/>
+<div class="searchbardiv">
+       <p class="searchBarText">Search on the page</p><input class="searchbar" type="text" placeholder="Search.."/>
+       </div>
        </div>
   </header>
 
