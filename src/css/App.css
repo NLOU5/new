@@ -37,89 +37,54 @@
     }
   }
   
-  
-  .Title{
-    
+  .content{
+
+    /*background-color: #282c34;*/
+    color: bl;
+    width: 70%;
+    margin-left: 15%;
     text-align: left;
-    /*background-color: ns;**/
-    position:relative;
-   /* margin-left: 30%; */
-    font-size: 30px;
-    min-height: fit-content;
-    min-width: fit-content;
-    margin-top: -2%;
-    color: black;
-  
+    margin-top: 5%;
+
+
   }
-  
-  
-  .navbar {
-    text-align: left;
+
+
+
+  .icone{
+    background-color: darkslategrey;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 40%;
     margin-top: -4%;
-    margin-left: -1.1%;
-  
-  }
-  
-  
-  .nav-link {
-     display: inline-block;
-     font-size: medium;
-     font-style: normal;
-     text-decoration: none;
-     padding: 15px;
-     color: black;
-  
-  
-  
-  }
-  
-  
-  
-  .Header{
-  
-    height: 100%;
-    width: 80%;
-    background-color: aliceblue;
-    position: absolute;
-   /* margin-left: 15%;*/
-    padding: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    
+    color: white;
     
   }
-  
-  .searchbar{
-  
-    position: absolute;
-    margin-top: -6%;
-    margin-left: 21%;
-    width: 20%;
-    height: 3%;
-
-  
-  
-  }
-  
-  .contour{
-  
-    height: 5%;
-    width: 100%;
-    background-color: gainsboro;
-
-  
-  
-  }
-  
-  .searchBarText{
-  
-      position: absolute;
-      margin-top: -5.5%;
-      margin-left: 62%;
-      font-size: 12px;
-      font-weight:bold;
-  
-  
-  }
 
 
+
+
+.menu{
+
+  /*background-color: #cfe6ec;*/
+  width: 14%;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 0%;
+
+
+}
+
+.title{
+
+  
+  /*background-color: darkorchid;*/
+  width: 14%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: -5%;
+
+
+}
