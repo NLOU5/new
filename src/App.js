@@ -1,58 +1,161 @@
 import logo from './logo.svg';
 import './css/App.css';
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"></meta>
 
 function App() {
-
-  const title = 'All-4-One';
-  const web = 'web site'
 
   return (
 
     <div className="App">
 
+<div class="title"> 
+    <h1>All for One</h1>
+</div>
 
-<header class="Header">
-<div class="contour">
-<div class="Title">
-        <h3>{ title } {web}</h3>
+<span class="icone">Profile</span>
 
- </div>
+<div class="menu">
 
-      <nav class="navbar">
-      <a class="nav-link" href="#">Nav 1 <span class="sr-only">(current)</span></a>
-       <a class="nav-link" href="#">Nav 2</a>
-      <a class="nav-link" href="#">Nav 3</a>
-      <a class="nav-link" href="#">Nav 4</a>
+    <a href='#Home'>Home</a>
+    <p></p>
+    <a href='#Menu1'>Menu1</a>
+    <p></p>
+    <a href='#Menu2'>Menu2</a>
+    <p></p>
+    <a href='#Menu3'>Menu3</a>
+    <p></p>
+    <a href='#Menu4'>Menu4</a>
+
+
+</div>
+
+
+<div class="content">
+
+<p>
+[eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+</p>
+
+<p>
+[eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+</p>
+
+</div>
 
 
 
-       {/*<ul class="nav navbar-nav">
-              <li class="nav-item active">
-                  <a class="nav-link" href="#">Nav 1 <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Nav 2</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Nav 3</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Nav 4</a>
-              </li>
-          </ul> */}        
-       </nav>
 
-<div class="searchbardiv">
-       <p class="searchBarText">Search on the page</p><input class="searchbar" type="text" placeholder="Search.."/>
-       </div>
-       </div>
-  </header>
+<div class="content">
+
+      <p>
+[eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+</p>
+
+
+</div>
+
+
+
+
+<div class="content">
+
+<p>
+[eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+</p>
+
+
+
+<p>
+[eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+</p>
+
+
+
+
+<p></p>
+
+</div>
+
+
+<div class="content">
+
+  
+<p>
+[eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+</p>
+
+
+
+
+</div>
 
 
   </div>
-
-
 
   );
 }
